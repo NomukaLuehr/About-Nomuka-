@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>Movable Puzzle</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+	$(window).load(function(){
+	   $( ".solved" ).animate({
+	}) })
+   
+   $("#up").click(function() {
+        $( ".last_piece" ).animate({
+             left: "+=0",
+             top: "-=50"}, 
+             500);
+      }); /*end up */   
+
+   $("#down").click(function() {
+        $( ".last_piece" ).animate({
+             left: "+=0",
+             top: "+=50"}, 
+             500);
+      }); /*end up */      
+       
+        $("#left").click(function() {
+        $( ".last_piece" ).animate({
+             left: "-=50",
+             top: "-=0"},
+             500);
+        });  /*end left*/    
+            
+        $("#right").click(function() {
+        $( ".last_piece" ).animate({
+             left: "+=50",
+             top: "-=0"},
+             500);
+        });  /*end right*/
+       
+});   /* end #document ready function */
+
+</script>
+</head>
+
+<body>
+<H1>Click the Buttons to Move the Last Piece and Solve the Puzzle</h1>
+<div>
+ <img  class="solved" src="almost_solved.png" style="position: absolute; top:150px; left: 20px;">	
+</div>
+<div>
+  <input type="button" id="up" value="Up" /">
+  <input type="button" id="down" value="Down" /">
+  <input type="button" id="left" value="Left" /">
+  <input type="button" id="right" value="Right" /">
+</div>
+
+<img  class="last_piece" src="last_piece.png" style="position: relative; top:1400px; left: 350px;">	
+</body>
+</html>

@@ -1,0 +1,23 @@
+/*link to student website: http://i6.cims.nyu.edu/~nl1538*/
+/*<link rel="stylesheet" type="text/css" href="style.css" /> */ 
+
+body{
+	display: block;
+	background-color: #000; 
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+    }
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	color: red;
+	
+}
+
+h2{
+	font-family: Helvetica, sans-serif;
+	color: gold;
+}
+	
+	

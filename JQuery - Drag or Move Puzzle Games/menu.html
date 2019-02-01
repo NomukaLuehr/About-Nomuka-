@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Puzzle Menu</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http://www.jqueryui.com/resources/demos/style.css"> 
+  <style>
+  .ui-menu { width: 150px; }
+   body {
+        background:url("fully_solved.png") no-repeat  scroll center;
+        background-position: 0px 200px;
+    	}
+  </style>
+</head>
+<body>
+ <h1>Puzzle By NYC Subway</h1>
+<ul id="ny_menu">
+  <li class="ui-state-disabled">
+  <li><a href="movable.html" target="_blank">Movable Puzzle</a></li>  
+  <li><a href="draggable.html" target="_blank">Draggable Puzzle</a></li>
+
+</ul>
+ 
+  <script>
+  
+    $( "#ny_menu" ).menu();
+ 
+  </script>
+</body>
+</html>

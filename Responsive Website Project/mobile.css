@@ -1,0 +1,122 @@
+/* Desktop style sheet for G&S site */
+
+/*background */
+
+body{
+		background-color: lightblue;
+		background-image: url("https://images.sharefaith.com/images/3/1199922311255_132/img_mouseover3.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top;
+
+}
+
+
+/*basic styles */
+
+#container {
+	width: 90%;
+	max-width: 1300px;
+	margin-auto;
+
+}
+
+#content {
+
+	clear: both;
+	margin-top: 100px;
+}
+
+/*adaptive layout styles */
+
+.column1 {
+	float: left;
+	width: 100%;;
+	font-size: 1.3em;
+}
+
+.column2 {
+	float: left;
+	width: 100%;
+	font-size: 1.3em;	
+
+}
+
+.column3 {
+	float: left;
+	width: 100%;
+	font-size: 1.3em;	
+
+}
+
+/* heading styles */
+
+
+h1, h2, h3, h4, h5, h6{
+	color: black;
+	font-size: 1.3em;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: left;
+
+}
+
+.title {
+	margin-top: 30px;
+	font-size: 1.7em;
+}
+
+/* basic text styles */
+
+p, ul, ol{
+	color: black;
+	font-family: Palatino, Times, serif;
+	font-size: .95em;
+	line-height: 1.4em;
+	text-align: left;
+
+}
+
+ul{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+
+}
+
+li{
+	float: left;
+	margin-right: 2%;
+
+}
+
+a:link, a:visited{
+	color: black;
+	text-decoration: none;
+
+}
+
+a:focus, a:hover{
+	color: white;
+	background: lightblue;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+
+#footer {
+	clear:both;
+	padding-top: 24px;
+	
+}
+
+img {width: 100%};
+
+
+
+
+
+
+
